@@ -52,15 +52,15 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scipts\Item\Item.cs" />
-     <Compile Include="Assets\Scipts\Inventory.cs" />
-     <Compile Include="Assets\Scipts\Player\Player.cs" />
      <Compile Include="Assets\Scipts\Item\Object.cs" />
      <Compile Include="Assets\Scipts\Item\IPickeable.cs" />
-     <Compile Include="Assets\Scipts\Item\ItemDatabase.cs" />
-     <Compile Include="Assets\Scipts\Player\PlayerController.cs" />
+     <Compile Include="Assets\Scipts\Item\Item.cs" />
+     <Compile Include="Assets\Scipts\Inventory.cs" />
      <Compile Include="Assets\Scipts\Player\IController.cs" />
      <Compile Include="Assets\Scipts\Camera\CameraController.cs" />
+     <Compile Include="Assets\Scipts\Player\Player.cs" />
+     <Compile Include="Assets\Scipts\Player\PlayerController.cs" />
+     <Compile Include="Assets\Scipts\Item\ItemDatabase.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -628,11 +628,32 @@
  <Reference Include="System.Xml.Serialization">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.VSCode.Editor">
+ <HintPath>D:/Respaldo nuevo/Proyectos/Inventory Test/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro.Editor">
+ <HintPath>D:/Respaldo nuevo/Proyectos/Inventory Test/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.VisualStudio.Editor">
+ <HintPath>D:/Respaldo nuevo/Proyectos/Inventory Test/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline.Editor">
+ <HintPath>D:/Respaldo nuevo/Proyectos/Inventory Test/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Timeline">
  <HintPath>D:/Respaldo nuevo/Proyectos/Inventory Test/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>D:/Respaldo nuevo/Proyectos/Inventory Test/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>D:/Respaldo nuevo/Proyectos/Inventory Test/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.PlasticSCM.Editor">
+ <HintPath>D:/Respaldo nuevo/Proyectos/Inventory Test/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Rider.Editor">
+ <HintPath>D:/Respaldo nuevo/Proyectos/Inventory Test/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Respaldo nuevo/Proyectos/Inventory Test/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>

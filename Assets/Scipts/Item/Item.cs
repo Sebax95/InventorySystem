@@ -20,7 +20,8 @@ public class Item
         this.description = description;
         this.quantity = quantity;
         this.type = type;
-        this.sprite = Resources.Load<Sprite>("Sprites/Items/" + sprite);
+        this.sprite = sprite;
+        //this.sprite = Resources.Load<Sprite>($"Sprites/Item/{type}/{sprite}");
     }
 
     public Item(Item item)
@@ -30,7 +31,8 @@ public class Item
         description = item.description;
         quantity = item.quantity;
         type = item.type;
-        sprite = Resources.Load<Sprite>("Sprites/Items/" + item.sprite);
+        sprite = item.sprite;
+        //sprite = Resources.Load<Sprite>($"Sprites/Item/{item.type}/{item.sprite}");
     }
 }
 

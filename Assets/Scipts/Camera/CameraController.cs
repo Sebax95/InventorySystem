@@ -74,23 +74,10 @@ public class CameraController : MonoBehaviour
     {
         if (target)
         {
-            if (Input.GetMouseButton(0))
-            {
-                if (Input.GetAxis("Mouse X") != 0 || Input.GetAxis("Mouse Y") != 0)
-                {
-                    mouseSideButton = true;
-                }
-            }
-            else
-            {
-                mouseSideButton = false;
-            }
 
-            if (Input.GetMouseButton(1) && !mouseSideButton)
-            {
-                x += Input.GetAxis("Mouse X") * xSpeed * 0.02f;
-                y -= Input.GetAxis("Mouse Y") * ySpeed * 0.02f;
-            }
+            x += Input.GetAxis("Mouse X") * xSpeed * 0.02f;
+            y -= Input.GetAxis("Mouse Y") * ySpeed * 0.02f;
+
 
             y = ClampAngle(y, yMinLimit, yMaxLimit);
             Quaternion rotation = Quaternion.Euler(y, x, 0);

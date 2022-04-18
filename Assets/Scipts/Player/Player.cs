@@ -39,8 +39,10 @@ public class Player : MonoBehaviour
     {
         limit = dir * speed;
         limit = Vector3.ClampMagnitude(limit, speed);
-        _rb.AddForce(_camera.transform.forward * limit.z);
-        _rb.AddForce( _camera.transform.right * limit.x);
+        var y = _rb.position.y;
+        _rb.MovePosition(_rb.position + _camera.transform.forward * limit.z * Time.fixedDeltaTime);
+        _rb.MovePosition(_rb.position + _camera.transform.right * limit.x * Time.fixedDeltaTime);
+        _rb.position = new Vector3(_rb.position.x, y, _rb.position.z);
         transform.forward = new Vector3(_camera.transform.forward.x, transform.forward.y, _camera.transform.forward.z);
     }
 
