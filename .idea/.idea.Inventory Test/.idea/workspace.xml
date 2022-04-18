@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63228fca-cad6-488e-a658-80d8a0ccac97" name="Changes" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scipts/Item/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scipts/Item/Item.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scipts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scipts/Player/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" afterDir="false" />
+    <list default="true" id="63228fca-cad6-488e-a658-80d8a0ccac97" name="Changes" comment="Added Pack 2D and some fixes in the movement, camera and sprites">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Inventory Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Inventory Test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scipts/Camera/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scipts/Camera/CameraController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650232794305</updated>
-      <workItem from="1650232820660" duration="12186000" />
+      <workItem from="1650232820660" duration="15982000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1650245823472</created>
@@ -87,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650245823472</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Pack 2D and some fixes in the movement, camera and sprites">
+      <created>1650254683648</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650254683648</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +126,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Added Pack 2D and some fixes in the movement, camera and sprites" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Pack 2D and some fixes in the movement, camera and sprites" />
   </component>
 </project>
